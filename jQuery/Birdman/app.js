@@ -1,3 +1,7 @@
-/**
- * Created by andre on 22.03.2016.
- */
+var main = function () {
+    $(".dropdown img").click(function () {
+        $(".dropdown-menu").slideToggle();
+    });
+}
+
+$(document).ready(main);
