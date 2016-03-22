@@ -1,0 +1,162 @@
+html, body {
+    margin: 0;
+}
+
+h1, h2, a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0px;
+}
+
+/* Main */
+.main {
+    margin: 0px;
+    text-align: center;
+    height: 600px;
+    background-image: url('https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg');
+    background-size: cover;
+    background-position: left center;
+}
+
+.main h1 {
+    font-size: 150px;
+    text-transform: uppercase;
+}
+
+.main p {
+    color: white;
+    font-size: 18px;
+}
+
+.main a,
+.footer a {
+    text-align: center;
+    color: #fff;
+    background-color: #1c1c1c;
+    text-decoration: none;
+    padding: 5px 30px 5px 30px;
+    text-transform: uppercase;
+}
+
+/* Supporting */
+.supporting {
+    text-align: center;
+    padding: 50px 0 80px;
+    background-color: #1c1c1c;
+}
+
+.supporting .col {
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+
+.supporting .col2 {
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    width: 33%;
+    margin-left: 33%;
+    padding: 10px;
+}
+
+.supporting .col2 a {
+    color: #1c1c1c;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px 25px 3px 25px;
+}
+
+.supporting h1,
+.supporting h2 {
+    color: #ffa800;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.supporting p {
+    color: #efefef;
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.supporting .btn {
+    background-color: #eee;
+    color: #1c1c1c;
+    font-size: 18px;
+    padding: 8px 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Feature */
+.feature {
+    height: 600px;
+    background-image: url('https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.feature h1,
+.feature h2,
+.footer h1,
+.footer h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 300px;
+}
+
+/* Footer */
+.footer {
+    height: 600px;
+    background-image: url('https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.footer p {
+    color: #fff;
+    margin: 0 0 20px 0;
+    font-size: 18px;
+}
+
+@media (min-width: 600px) {
+    .main h1 {
+        font-size: 200px;
+    }
+
+    .supporting .col {
+        width: 33%;
+    }
+
+    .supporting h2 {
+        font-size: 40px;
+    }
+
+    .supporting p {
+        font-size: 14px;
+    }
+
+    .feature h2 {
+        font-size: 60px;
+    }
+}
