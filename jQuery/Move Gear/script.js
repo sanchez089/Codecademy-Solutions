@@ -1,3 +1,10 @@
-/**
- * Created by andre on 22.03.2016.
- */
+var main = function () {
+    $(".login").click(function () {
+        $(".dropdown-menu", this).slideToggle(400);
+    });
+
+    $("#accordion").accordion();
+}
+
+
+$(document).ready(main)
