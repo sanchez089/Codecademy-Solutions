@@ -1,2 +1,2 @@
 # Codecademy-Solutions
-My solutions of codecademy.com
+My solutions of the codecademy.com-projects
