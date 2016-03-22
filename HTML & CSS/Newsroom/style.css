@@ -1,0 +1,145 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background: #f2f2f2
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #000;
+}
+
+header .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header img {
+    height: 50px;
+}
+
+#search {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    color: #fff;
+    width: 300px;
+}
+
+#search:hover, #search:focus {
+    box-shadow: 0px 0px 0px;
+    border-bottom: 1px solid #1a77ff;
+}
+
+header form .btn, header form .btn:hover {
+    margin-left: 10px;
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid #1a77ff;
+    border-radius: 0px;
+}
+
+/* Navigation */
+nav {
+    background-color: #152230;
+}
+
+nav .nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    color: #fff;
+}
+
+.nav li a:hover, .nav li a:focus {
+    background-color: #1a77ff;
+
+}
+
+.active {
+    background-color: #1a77ff;
+}
+
+/* Main */
+.main {
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg) center;
+    background-size: cover;
+    color: #fff;
+}
+
+.main h1 {
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.main h1 span {
+    border-bottom: 5px solid #1a77ff;
+}
+
+.main p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.main .date {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+/* Supporting */
+.supporting .row {
+    margin: 50px 0;
+}
+
+.supporting .row .col-md-8 {
+    padding: 25px 0px 50px 25px;
+    background: #fff;
+    color: #000;
+}
+
+.supporting .row .col-md-4.sidebar {
+    padding: 25px 0px 50px 25px;
+    background: #152230;
+    color: #fff;
+}
+
+.supporting .row span {
+    border-bottom: 3px solid #1a77ff;
+}
+
+.supporting .row .col-md-12 {
+    padding: 0px;
+}
+
+.supporting .col-md-12 img {
+    min-width: 100%;
+}
+
+/* Footer */
+footer {
+    padding: 50px 0 50px 0;
+    background: #000;
+    color: #fff;
+}
+
+footer ul {
+    float: left;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+footer span {
+    float: right;
+}
